@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Smartown</string>
+    <string name="home">Home</string>
+    <string name="reglages">Reglages</string>
+    <string name="mon_actu">Mon actu</string>
+    <string name="mes_commerces">Mes commerces</string>
+    <string name="mes_reseaux">Mes réseaux</string>
+    <string name="mes_interets">Mes intérêts</string>
+</resources>
