@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ActuActivity" android:label="@string/mon_actu"/>
+        <activity android:name=".CommercesActivity" android:label="@string/mes_commerces"/>
+        <activity android:name=".ReseauxActivity" android:label="@string/mes_reseaux"/>
+        <activity android:name=".InteretsActivity" android:label="@string/mes_interets"/>
     </application>
 
 </manifest>
