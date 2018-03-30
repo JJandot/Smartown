@@ -6,7 +6,7 @@
     android:orientation="horizontal">
 
     <ImageButton
-        android:id="@+id/home"
+        android:id="@+id/homeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -14,6 +14,7 @@
         android:layout_centerVertical="true"
         android:background="@color/colorPrimary"
         android:contentDescription="@string/home"
+        android:onClick="homeButton"
         android:src="@drawable/ic_home_white_24dp" />
 
     <TextView
@@ -25,8 +26,8 @@
         android:layout_marginLeft="32dp"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="20dp"
-        android:layout_toEndOf="@+id/home"
-        android:layout_toRightOf="@+id/home"
+        android:layout_toEndOf="@+id/homeButton"
+        android:layout_toRightOf="@+id/homeButton"
         android:text="@string/app_name"
         android:textColor="#ffffff"
         android:textSize="20sp" />
@@ -40,6 +41,7 @@
         android:layout_alignParentRight="true"
         android:background="@color/colorPrimary"
         android:contentDescription="@string/reglages"
+        android:onClick="settingsButton"
         android:src="@drawable/ic_settings_white_24dp" />
 
 </RelativeLayout>

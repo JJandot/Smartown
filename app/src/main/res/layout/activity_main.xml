@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menuDisplay"
+    style="?android:attr/buttonBarStyle"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.julien.smartown.MainActivity"
-    android:id="@+id/menuDisplay"
-    style="?android:attr/buttonBarStyle">
+    android:background="#E0E0E0"
+    tools:context="com.example.julien.smartown.MainActivity">
 
     <TableRow
         android:id="@+id/row1"
@@ -18,16 +19,17 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
+            android:background="@drawable/shape"
             android:clickable="true"
             android:focusable="true"
-            android:onClick="launchActu">
+            android:gravity="center"
+            android:onClick="launchActu"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/ic_shopping_cart_black_48dp"
+                android:background="@drawable/newspaper"
                 android:contentDescription="@string/mon_actu" />
 
             <TextView
@@ -40,11 +42,12 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
+            android:background="@drawable/shape"
             android:clickable="true"
             android:focusable="true"
-            android:onClick="launchCommerce">
+            android:gravity="center"
+            android:onClick="launchCommerce"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="50dp"
@@ -70,11 +73,12 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
+            android:background="@drawable/shape"
             android:clickable="true"
             android:focusable="true"
-            android:onClick="launchReseau">
+            android:gravity="center"
+            android:onClick="launchReseau"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="50dp"
@@ -92,11 +96,12 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
+            android:background="@drawable/shape"
             android:clickable="true"
             android:focusable="true"
-            android:onClick="launchInterets">
+            android:gravity="center"
+            android:onClick="launchInterets"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="50dp"
